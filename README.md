@@ -41,7 +41,7 @@ $ npm install ndarray-concat-rows
 
 #### `require('ndarray-concat-rows')([output,] input, [options])`
 **Arguments**:
-- `output` (optional): An optional output destination. The shape must match the shape of the concatenated arrays, otherwise an error will be thrown. If not provided, storage will be allocated using [`ndarray-scratch'](https://github.com/scijs/ndarray-scratch).
+- `output` (optional): An optional output destination. The shape must match the shape of the concatenated arrays, otherwise an error will be thrown. If not provided, storage will be allocated using [`ndarray-scratch`](https://github.com/scijs/ndarray-scratch).
 - `input`: A javascript `Array` containing ndarrays to be concatenated. If this is missing or empty, an error will be thrown. Given n-dimensional input, all arguments must have the same dimensionality and the last n-1 dimensions of each arguments must have the same length.
 - `options` (optional): An optional object containing options. Options are:
   - `dtype`: If no `output` ndarray is provided, the dtype of the output will be `double` (equivalently `float64`) by default, or otherwise the dtype specified here. See [ndarray dtypes](https://github.com/scijs/ndarray#arraydtype).
