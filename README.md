@@ -8,7 +8,7 @@ This module takes a list of input ndarrays and concatenates it along the first d
 
 ## Examples
 
-Understanding `(+)` in the comments below to indicate column concatenation,
+Understanding `(+)` in the comments below to indicate row concatenation,
 
 ```javascript
 var ndarray = require('ndarray')
