@@ -6,7 +6,6 @@ var ndarray = require('ndarray')
 var assert = require('chai').assert
 var ndt = require('ndarray-tests')
 var pool = require('ndarray-scratch')
-var show = require('ndarray-show')
 
 describe('concat-rows', function () {
   it('concatenating nothing fails', function () {
