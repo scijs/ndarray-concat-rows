@@ -1,6 +1,6 @@
 {
   "name": "ndarray-concat-rows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Concatenate ndarrays by row (along the first dimension)",
   "main": "index.js",
   "scripts": {
